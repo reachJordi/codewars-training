@@ -4,7 +4,7 @@ function toWeirdCase(sentence) {
     
     // Convert each word to weird case and join them back to form the sentence
     // passing a function to every element in the calling array
-    return words.map(convertToWeirdCase).join(' ');
+    return words.map(convertToWeirdCase).join(' '); 
 }
   
 // Function to convert a word to weird case
