@@ -5,3 +5,6 @@ const areaOrPerimeter = function(l , w) {
 
     return l === w ? area : perimeter;
 };
+
+console.log(areaOrPerimeter(6, 10)); // 32
+console.log(areaOrPerimeter(3, 3)); // 9
